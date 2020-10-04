@@ -7,7 +7,7 @@ public class MyChar {
         String myDollar = "$$";
         System.out.println(myDollar);
         char zahl = 100;
-        char octal = '\u03A6';
+        char octal = '\u00A9';
         char tabulator = '\t';
         System.out.println(zahl);
         System.out.println(octal);
