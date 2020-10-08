@@ -8,11 +8,9 @@ public class HomeWork {
 
     private static String enigmaCaesar(String s) {
         String code = "";
-        String codeCase = s.toLowerCase();
+        //String codeCase = s.substring(0, 1).toUpperCase() + s.substring(1).toLowerCase();
         for (int i = 0; i < s.length(); i++) {
             code = code + getEnigma(s.charAt(i));
-
-
         }
         return code;
     }
@@ -74,8 +72,8 @@ public class HomeWork {
             case 'р':
                 letteCode = 'у';
                 break;
-            case 'С':
-                letteCode = 'Ф';
+            case 'с':
+                letteCode = 'ф';
                 break;
             case 'т':
                 letteCode = 'х';
