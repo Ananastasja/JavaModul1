@@ -31,8 +31,8 @@ public class TernarAndWhile {
     private static String fromAToB(int a, int b) { //не выводит 5. Не совсем удачный метод
         String result = "";
         while (a < b) {
-            a++;
             result = result + a + " ";
+            a++;
         }
         return result;
 

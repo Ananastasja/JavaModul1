@@ -35,5 +35,6 @@ public class ScannerHome {
         System.out.println(age);
         System.out.println(gender);
         System.out.println(email);
+        input.close();
     }
 }
