@@ -39,7 +39,7 @@ public class HomeWork {
         if (first.length == 0) {
             output = new int[]{second[0]};
         } else if (second.length == 0) {
-            output = new int[]{first[0]};
+            output = new int[]{first[0]};//верни первое значение другого
         } else {
             output = new int[]{first[0], second[0]};
         }
