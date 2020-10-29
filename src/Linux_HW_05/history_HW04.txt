@@ -1,11 +1,8 @@
-  0 touch /tmp/myfirstbashscript
-   1 vi /tmp/myfirstbashscript
-   2 cd /tmp/
-   3 ls -la
-   4 chmod 700 /tmp/myfirstbashscript
-   5 ls -l
-   6 cat myfirstbashscript
-   7 cat myfirstbashscript >> /tmp/new_file.txt
-   8 export_file /tmp/new_file.txt
-   9 history
-  10 history >> /tmp/history.txt
+    0 touch /tmp/myfirstbashscript.sh
+    1 ls -l /tmp/myfirstbashscript.sh
+    2 chmod 700 /tmp/myfirstbashscript.sh
+    3 ls -l /tmp/myfirstbashscript.sh
+    4 vi /tmp/myfirstbashscript.sh
+    5 export_file /tmp/myfirstbashscript.sh
+    6 history
+    7 history >> /tmp/history.txt
